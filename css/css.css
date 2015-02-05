@@ -1,3 +1,48 @@
-body{
-	color: yellow;
+html{
+	font-size: 62.5%;
+}
+
+.home{
+	background: #EFECCA;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 1.6em;
+	font-weight: normal;
+	color: rgba(4, 99, 128, 1);
+}
+
+.redtext{
+	color: rgba(0, 47, 47 1);
+}
+
+nav a{
+	font-family: 'Courier New', monospace;
+	font-size: 1.3em;
+	text-decoration: none;
+	word-spacing: -.3em
+}
+
+nav ul{
+	margin-left: -40px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 35px;
+}
+
+nav a:link, nav a:visited{
+	color: rgba(0, 47,47, 1);
+
+}
+
+nav a:hover, nav a:active{
+	background: rgba(0, 47, 47, 1);
+	color: #EFECCA;
 }
