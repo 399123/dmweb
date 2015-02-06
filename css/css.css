@@ -3,10 +3,33 @@ html{
 }
 
 .home{
-	background: #EFECCA;
+	background: url('../img/bg-leaves-lowest.jpg') center center fixed no-repeat #00ffff;
+	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
+}
+/*centering*/
+.container{
+	width: 960px;
+	margin: 0px auto;
+}
+/*inside cnetering*/
+.centerme{
+	text-align: center;
+}
+.box{
+	color: rgba(167, 163, 126, 1);
+	border: solid;
+	background: rgba(255, 255, 255, .8);
+	padding: 10px;
+	/*top bottom left right, symmetrical, so also top and bottotm, 
+	left and right if 2 values, all 4 if one value */
+	margin-bottom: 10px;
+}
+
+.hide{
+	display: none;
 }
 
 h1 {
@@ -38,7 +61,7 @@ nav ul li{
 }
 
 nav a:link, nav a:visited{
-	color: rgba(0, 47,47, 1);
+	color: rgba(167, 163, 126, 1);
 
 }
 
