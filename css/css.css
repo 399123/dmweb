@@ -42,6 +42,11 @@ h1 {
 .redtext{
 	color: rgba(0, 47, 47 1);
 }
+.lobster{
+	font-family: 'Lobster', cursive;
+	font-size: 1.8em;
+	font-weight: normal;
+}
 
 a{
 	font-family: 'Courier New', monospace;
