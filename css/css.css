@@ -7,7 +7,7 @@ html{
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 /*centering*/
 .container{
@@ -26,6 +26,10 @@ html{
 	/*top bottom left right, symmetrical, so also top and bottotm, 
 	left and right if 2 values, all 4 if one value */
 	margin-bottom: 10px;
+}
+
+.lineheight{
+	line-height: 150%;
 }
 
 .hide{
