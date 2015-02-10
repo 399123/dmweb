@@ -65,12 +65,12 @@ nav ul li{
 	margin-right: 35px;
 }
 
-a:link, nav a:visited{
+a:link, a:visited{
 	color: rgba(167, 163, 126, 1);
 
 }
 
-a:hover, nav a:active{
+a:hover, a:active{
 	background: rgba(0, 47, 47, 1);
 	color: #EFECCA;
 }
