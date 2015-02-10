@@ -1,5 +1,5 @@
 html{
-	font-size: 62.5%;
+	font-size: 75.0%;
 }
 
 .home{
@@ -34,7 +34,7 @@ html{
 
 h1 {
 	font-family: 'Lobster', cursive;
-	font-size: 1.6em;
+	font-size: 2.6em;
 	font-weight: normal;
 	color: rgba(4, 99, 128, 1);
 }
@@ -43,7 +43,7 @@ h1 {
 	color: rgba(0, 47, 47 1);
 }
 
-nav a{
+a{
 	font-family: 'Courier New', monospace;
 	font-size: 1.3em;
 	text-decoration: none;
@@ -60,12 +60,12 @@ nav ul li{
 	margin-right: 35px;
 }
 
-nav a:link, nav a:visited{
+a:link, nav a:visited{
 	color: rgba(167, 163, 126, 1);
 
 }
 
-nav a:hover, nav a:active{
+a:hover, nav a:active{
 	background: rgba(0, 47, 47, 1);
 	color: #EFECCA;
 }
