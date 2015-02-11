@@ -26,6 +26,12 @@ html{
 	/*top bottom left right, symmetrical, so also top and bottotm, 
 	left and right if 2 values, all 4 if one value */
 	margin-bottom: 10px;
+	/*curves borders*/
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	/*adds black shadow to borders*/
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,.9);
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,.9);
 }
 
 .lineheight{
