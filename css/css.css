@@ -32,7 +32,7 @@ html{
 	text-align: center;
 }
 .box{
-	color: rgba(167, 163, 126, 1);
+	color: rgba(167, 44, 126, 1);
 	border: solid;
 	background: rgba(255, 255, 255, .8);
 	padding: 10px;
@@ -79,7 +79,7 @@ h1 {
 }
 
 .redtext{
-	color: rgba(0, 47, 47 1);
+	color: rgba(205, 83, 183, 1);
 }
 .lobster{
 	font-family: 'Lobster', cursive;
@@ -110,7 +110,7 @@ ul li{
 }
 
 a:link, a:visited{
-	color: rgba(167, 163, 126, 1);
+	color: rgba(167, 44, 126, 1);
 
 }
 
