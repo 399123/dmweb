@@ -38,6 +38,14 @@ html{
 	line-height: 150%;
 }
 
+.floatleft{
+	float:left;
+}
+
+.floatright{
+	float: right;
+}
+
 .hide{
 	display: none;
 }
