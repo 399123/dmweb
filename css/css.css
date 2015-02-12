@@ -1,12 +1,14 @@
 *,
 *:before,
 *:after{
+	margin: 0;
+	padding: 0;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-.clearfix{
+.clearfix:after{
 	display:table;
 	content: "";
 	clear: both;
@@ -78,6 +80,14 @@ h1 {
 	color: rgba(4, 99, 128, 1);
 }
 
+h2{
+	margin-bottom: 10px;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
 .redtext{
 	color: rgba(205, 83, 183, 1);
 }
@@ -91,11 +101,11 @@ a{
 	font-family: 'Courier New', monospace;
 	font-size: 1.3em;
 	text-decoration: none;
-	word-spacing: -.3em
+	word-spacing: -.3em;
 }
 
 nav ul{
-	margin-left: -40px;
+	
 }
 
 nav ul li{
