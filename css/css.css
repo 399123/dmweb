@@ -1,3 +1,16 @@
+*,
+*:before,
+*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix{
+	display:table;
+	content: "";
+	clear: both;
+}
 html{
 	font-size: 75.0%;
 }
@@ -46,6 +59,14 @@ html{
 	float: right;
 }
 
+.leftconst{
+	width: 600px;
+}
+
+.rightconst{
+	width: 310px;
+}
+
 .hide{
 	display: none;
 }
@@ -80,6 +101,11 @@ nav ul{
 nav ul li{
 	list-style-type: none;
 	display: inline;
+	margin-right: 35px;
+}
+
+ul li{
+	list-style-type: none;
 	margin-right: 35px;
 }
 
