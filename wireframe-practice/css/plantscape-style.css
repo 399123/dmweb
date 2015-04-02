@@ -37,11 +37,17 @@
 
 /* add font for title in .woff format */
 
-@font-face{
-	font-family: 'growth';
-	src: url('CFFlowersofDestinyPersonal-webfont.woff'), format('woff');
+@font-face {
+    font-family: 'cf_flowers_of_destiny_persoRg';
+    src: url('CFFlowersofDestinyPersonal-webfont.eot');
+    src: url('CFFlowersofDestinyPersonal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CFFlowersofDestinyPersonal-webfont.woff2') format('woff2'),
+         url('CFFlowersofDestinyPersonal-webfont.woff') format('woff'),
+         url('CFFlowersofDestinyPersonal-webfont.ttf') format('truetype'),
+         url('CFFlowersofDestinyPersonal-webfont.svg#cf_flowers_of_destiny_persoRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
 /* begin stylizing webpage*/
 
 .main{
@@ -49,7 +55,16 @@
 }
 
 .logo{
-	font-family: 'growth';
+	background: url('../img/logo.png') center center no-repeat rgba(146, 166, 178, 1)!important;
+	width: 536px;
+	height: 96px;
+}
+
+.logo h1{
+	font-size: 1px;
+	position: absolute;
+	top: -999px;
+	left: -999px;
 }
 
 ul li{
@@ -76,7 +91,7 @@ nav a{
 }
 
 .widthzone{
-	width: 776px;
+	width: 804px;
 	margin: 0 auto;
 }
 
@@ -84,10 +99,8 @@ nav a{
 	color: #193441;
 	border: solid;
 	background: rgba(248, 243, 221, 1);
-	padding: 10px;
 	/*top bottom left right, symmetrical, so also top and bottotm, 
 	left and right if 2 values, all 4 if one value */
-	margin-bottom: 10px;
 	/*curves borders*/
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
@@ -96,10 +109,8 @@ nav a{
 .boxdark{
 	border: solid;
 	background: rgba(146, 166, 178, 1);
-	padding: 10px;
 	/*top bottom left right, symmetrical, so also top and bottotm, 
 	left and right if 2 values, all 4 if one value */
-	margin-bottom: 10px;
 	/*curves borders*/
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
@@ -125,12 +136,12 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
-	color: #fcfff5;
+	color: #193441;
 }
 
 
 .containzone{
-	width: 776px;
+	width: 804px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 20px;
@@ -142,10 +153,6 @@ a:hover, a:active{
 
 .marginlast{
 	margin-right: 36px;
-}
-
-h1{
-	font-size: 78px;
 }
 
 .zone{
@@ -160,3 +167,42 @@ h1{
 	color: #91aa9d;
 }
 
+.storetitle{
+	color: #fcfff5;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.storebody{
+	color: #fcfff5;
+	font-size: 28px;
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 19px;
+	margin-bottom: 35px;
+	line-height: 135%;
+}
+
+.containnav{
+	width: 136px;
+}
+.containstore{
+	width: 252px;
+}
+
+.containimg{
+	width: 536px;
+}
+
+.marginleftimg{
+	margin-left: 20px;
+	padding: -10px;
+}
+
+.adjustzone{
+	padding-left: 0px;
+}
+
+.navtop{
+	margin-top: 10px;
+}
