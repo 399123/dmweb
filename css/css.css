@@ -84,18 +84,18 @@ ul li{
 /* link visited hover active */
 
 a:link, a:visited{
-	color: #a83737
+	color: #103b1d;
 }
 
 a:hover, a:active{
-	color: #103b1d
+	color: #a83737;
 
 }
 
 /* nav specific */
 
 nav{
-
+	margin: 0px;
 }
 
 nav ul{
@@ -147,4 +147,13 @@ body{
 	font-size: 134px;
 	margin-left: 40px;
 	margin-right: 40px;
+}
+
+.lineheight{
+	line-height: 25px;
+	font-size: 20px;
+}
+
+p{
+	margin: 10px;
 }
