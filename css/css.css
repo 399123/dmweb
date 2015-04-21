@@ -1,16 +1,13 @@
-/* css reset */
 *,
 *:before,
 *:after{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-
-/* floats and clearfix*/
 
 .left{
 	float: left;
@@ -20,140 +17,18 @@
 	float: right;
 }
 
+.contain{
+	width: 960px;
+	margin: 0px auto;
+}
+
 .clearfix{
 	display: table;
 	content: " ";
 	clear: both;
 }
 
-/* center the body of the text, container of 960 width */
-
-.container{
-	width: 960px;
-	margin: 0px auto;
-}
-
-.centerme{
-	text-align: center;
-}
-
-/*defite font familys and appropriate text sizes*/
-
-.mono{
-	font-family: 'Droid Sans Mono', mono;
-	font-size: 20px;
-}
-
-.sans{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 46px;
-}
-
-.serif{
-	font-family: 'Libre Baskerville', serif;
-	font-size: 29px;
-}
-
-.logo{
-	font-family: 'Dancing Script', cursive;
-	font-size: 113px;
-}
-
-.serifitallic{
-	font-family: 'Libre Baskerville', cursive;
-	font-style: italic;
-	font-size: 26px;
-	line-height: 79px;
-}
-
-
-/* remove text declaration from links */
-
-a{
-	text-decoration: none;
-}
-
-/* general ul li and li */
-
-ul li{
- 	list-style-type: none;
- 	display: inline-block;
-}
-
-
-/* link visited hover active */
-
-a:link, a:visited{
-	color: #103b1d;
-}
-
-a:hover, a:active{
-	color: #a83737;
-
-}
-
-/* nav specific */
-
-nav{
-	margin: 0px;
-}
-
-nav ul{
-
-}
-
-nav ul li{
-	display: inline-block;
-}
-
-nav ul li a{
-	margin: 12px;
-}
 
 body{
-	background: url('../img/dm1portal-bckgrnd.jpg') center center fixed no-repeat;
-	background-size: cover;
-}
-
-/*render boxes around elements*/
-
-.box{
-	margin: 5px;
-	color: #103b1d;
-	border: solid;
-	background: rgba(255, 255, 255, .75);
-	/*top bottom left right, symmetrical, so also top and bottotm, 
-	left and right if 2 values, all 4 if one value */
-	/*curves borders*/
-	-webkit-border-radius: 15px;
-	border-radius: 15px;
-	/*adds black shadow to borders*/
-	-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,.9);
-	box-shadow: 3px 3px 3px 3px rgba(0,0,0,.9);
-}
-
-/* define width for site elements half and full respectively */
-.hwidth{
-	width: 470px;
-}
-
-.fwidth{
-	width: 960px;
-}
-
-/*fontsize of fontawesome*/
-
-.socialsize{
-	font-size: 134px;
-	margin-left: 40px;
-	margin-right: 40px;
-}
-
-.lineheight{
-	line-height: 25px;
-	font-size: 20px;
-}
-
-p{
-	margin: 10px;
+	background: teal;
 }
