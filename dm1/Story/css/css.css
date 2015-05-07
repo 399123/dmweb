@@ -1,0 +1,162 @@
+/* general classes. Open all css documents with them */
+
+*,
+*:before,
+*:after{
+	margin: 0px;
+	padding: 0px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.centerme{
+	position: center;
+}
+
+.container{
+	width: 960px;
+	margin: 0px auto;
+}
+
+.hwidth{
+	/* actually 5px short of half width for gutter between elements */
+	max-width: 45%;
+}
+
+.hwidthf{
+	width: 432px;
+}
+
+.fwidth{
+	max-width: 100%;
+}
+
+.box{
+	background: rgba(168, 56, 3, 1);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: solid;
+	margin: 5px;
+	border-color: #733403;
+}
+
+/* added background gradient and fixed it to be full height of page. */
+html{
+	min-height: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bckgrndgrd{
+	/*height: 100%;*/
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(top, rgba(168,56,3,1) 0%, rgba(83,3,2,0.7) 49%, rgba(72,3,2,0.66) 56%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(168,56,3,1)), color-stop(49%,rgba(83,3,2,0.7)), color-stop(56%,rgba(72,3,2,0.66)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(168,56,3,1) 0%,rgba(83,3,2,0.7) 49%,rgba(72,3,2,0.66) 56%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(168,56,3,1) 0%,rgba(83,3,2,0.7) 49%,rgba(72,3,2,0.66) 56%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(168,56,3,1) 0%,rgba(83,3,2,0.7) 49%,rgba(72,3,2,0.66) 56%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(168,56,3,1) 0%,rgba(83,3,2,0.7) 49%,rgba(72,3,2,0.66) 56%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a83803', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.lora{
+	font-family: 'Lora', serif;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: #fca02a;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #fca02a;
+}
+
+a:hover, a:active{
+	color: #733403;
+}
+
+h1{
+	color: #fca02a;
+}
+
+h2{
+	color: #fca02a;
+}
+
+/* code for desktop and tablet*/
+
+@media only screen and (min-width: 971px){
+	.poems{
+		width: 460px;
+		height: 334px;
+
+	}
+
+	p{
+		line-height: 35px;
+		font-size: 22px
+	}
+
+	nav{
+		height: 76px;
+		text-align: center;
+		vertical-align: center;
+		font-size: 25px;
+	}
+}
+
+/*code for mobile */
+
+@media only screen and (max-width: 970px){
+	.right{
+		float: left;
+		width: 460px;
+	}
+
+	.left{
+		float: left;
+		width: 460px;
+	}
+	.hwidth{
+		max-width: 100%;
+	}
+	.clearleft{
+		display: table;
+		content: "";
+		clear: both;
+	}
+
+	.hwidthf{
+		width: 460px;
+	}
+}
